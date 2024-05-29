@@ -46,3 +46,14 @@ h1{
 h1, h2{
     font-family: "Young Serif", serif;    
 }
+
+#prep-time{
+    padding: 1rem;
+    background: var(--rose-white);
+}
+
+#prep-time h2{
+    font-size: 1.15rem;
+    font-family: "Outfit", sans-serif;
+    color: var(--dark-raspberry);
+}
