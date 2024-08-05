@@ -16,12 +16,24 @@ body{
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    color: var(--dark-charcoal);
+    color: var(--wenge-brown);
     background: var(--eggshell);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h1{
+    color: var(--dark-charcoal);
+}
+
+h2{
+    color: var(--nutmeg);
+}
+
+li::marker{
+    color: var(--nutmeg);
 }
 
 main{
@@ -55,5 +67,9 @@ h1, h2{
 #prep-time h2{
     font-size: 1.15rem;
     font-family: "Outfit", sans-serif;
+    color: var(--dark-raspberry);
+}
+
+#prep-time li::marker{
     color: var(--dark-raspberry);
 }
